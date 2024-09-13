@@ -1,0 +1,96 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 980px;
+    max-width: 100%;
+}
+
+.content-left {
+    flex: 1;
+    padding-right: 40px;
+}
+
+.content-left h1 {
+    color: #1877f2;
+    font-size: 48px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.content-left p {
+    font-size: 20px;
+    color: #1c1e21;
+    margin-top: 10px;
+}
+
+.login-form-container {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 18px; /* Increased padding */
+    margin-bottom: 14px;
+    border: 1px solid #dddfe2;
+    border-radius: 8px; /* Slightly increased border radius */
+    font-size: 18px; /* Increased font size */
+    background-color: #f5f6f7;
+}
+
+.login-form button {
+    width: 100%;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    padding: 16px; /* Increased button padding */
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.login-form a {
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
+
+.create-account {
+    width: 100%;
+    background-color: #42b72a;
+    color: white;
+    border: none;
+    padding: 16px; /* Increased button padding */
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
